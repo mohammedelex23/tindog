@@ -1,0 +1,277 @@
+body, html {
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+#title {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    line-height: 1.5;
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 10%;
+}
+
+/* Features */
+
+#features {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.features-box {
+    padding: 4.5%;
+}
+
+.features-icons {
+    color: #ef8172;
+    margin-bottom: 5%;
+}
+
+.features-icons:hover {
+    color: #ff4c68;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* carousel */
+
+#carousel {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #EF8172;
+    color: white;
+}
+
+#carousel img {
+    border-radius: 50%;
+    width: 10%;
+    margin-right: 2%;
+}
+
+#carousel h2 {
+    margin-bottom: 2%;
+}
+
+/* support */
+
+#support {
+    text-align: center;
+    background-color: #EF8172;
+    margin-bottom: 5%;
+}
+
+#support img {
+    padding: 0 3% 7%;
+    width: 20%;
+}
+
+/* pricing */
+
+.pricing-cards {
+    width: 100%;
+    padding: 0 3%;
+}
+
+#pricing {
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3%;
+}
+
+.card-header, .card-body {
+    padding: 5%;
+}
+
+/* colored-section */
+
+#colored-section {
+    background-color: #FF4C68;
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+#colored-section h3 {
+    font-size: 3rem;
+}
+
+/* footer */
+
+footer {
+    padding: 4% 0 7%;
+    text-align: center;
+}
+
+.social-icons {
+    margin: .5rem;
+}
+
+/*////////////////// Media Queries ///////////////////*/
+
+@media (max-width: 600px) {
+    html, body {
+        font-size: 14px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    #pricing {
+        padding: 4% 0;
+    }
+    h2 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .card-body h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    #colored-section h3 {
+        font-size: 1.5rem;
+    }
+    .download-buttons {
+        margin-bottom: 0;
+    }
+    .title-image {
+        transform: rotate(0deg);
+        padding: 10% 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 601px) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .card-body h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    #colored-section h3 {
+        font-size: 1.5rem;
+    }
+    .download-buttons {
+        margin-bottom: 0;
+    }
+    .title-image {
+        transform: rotate(0deg);
+        padding: 10% 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0deg);
+        padding: 10% 0;
+        margin: 0;
+    }
+    #colored-section h3 {
+        font-size: 2rem;
+    }
+}
+ 
+@media (min-width: 992px) {
+    html, body {
+        font-size: 100%;
+    }
+    .title-image {
+        transform: rotate(25deg);
+        padding: 0;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    #pricing .container-fluid {
+        padding: 3% 7%;
+    }
+}
+
+@media (min-width: 1200px) {
+    html, body {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+} 
